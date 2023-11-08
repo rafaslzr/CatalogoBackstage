@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: backstage
+spec:
+  owner: rafael.salazar.lopez@accenture.com
