@@ -5,7 +5,7 @@ metadata:
   title: Hello World
   description: Says Hello to a specified name.
 spec:
-  owner: backstage/techdocs-core
+  owner: rafael.salazar.lopez@accenture.com
   type: service
 
   parameters:
