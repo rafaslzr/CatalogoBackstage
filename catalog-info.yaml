@@ -5,7 +5,7 @@ kind: System
 metadata:
   name: backstage
 spec:
-  owner: fernando.b.hernandez@accenture.com
+  owner: rafael.salazar.lopez@accenture.com
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -17,7 +17,7 @@ metadata:
 spec:
   type: website
   lifecycle: integration
-  owner: fernando.b.hernandez@accenture.com
+  owner: rafael.salazar.lopez@accenture.com
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -27,4 +27,17 @@ metadata:
 spec:
   type: website
   lifecycle: development
-  owner: fernando.b.hernandez@accenture.com
+  owner: rafael.salazar.lopez@accenture.com
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component-web-test3
+  description: Example1 added from the GitHub repo
+  annotations:
+    backstage.io/techdocs-ref: value
+spec:
+  type: website
+  lifecycle: integration
+  owner: rafael.salazar.lopez@accenture.com
