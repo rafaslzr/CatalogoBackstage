@@ -1,6 +1,11 @@
-apiVersion: backstage.io/v1alpha1
+# Notice the v1beta3 version
+apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
+# some metadata about the template itself
 metadata:
-  name: backstage
+  name: v1beta3-demo
+  title: Spring boot up
+  description: 
 spec:
-  owner: rafael.salazar.lopez@accenture.com
+  owner: rafa
+  type: service
