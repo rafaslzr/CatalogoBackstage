@@ -1,17 +1,17 @@
 # User
-apiVersion: backstage.io/v1
+apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   namespace: rafa
   name: rafa
 spec:
-  displayName: John Doe
-  email: rafael.salazar.lopez@accenture.com
+  displayName: Rafa
+  email: rapez@acc.com
 
 ---
 
 # Group
-apiVersion: backstage.io/v1
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   namespace: rafa
@@ -19,4 +19,4 @@ metadata:
 spec:
   type: team
   description: Grupo de desarrolladores
-  email: rafael.salazar.lopez@accenture.com
+  email: rapez@acc.com
