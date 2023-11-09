@@ -9,7 +9,7 @@ spec:
   email: rafael.salazar.lopez@accenture.com
  
 # Group
-apiVersion: backstage.io/v1
+#apiVersion: backstage.io/v1
 kind: Group
 metadata:
   namespace: rafa
