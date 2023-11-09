@@ -12,7 +12,6 @@ spec:
     - title: You are about to say hello to your first Backstage Template
       required:
         - name
-        - repoUrl
       properties:
         name:
           type: string
@@ -30,5 +29,5 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: This is ${{ parameters.name }}
-        repoUrl: ${{ parameters.repoUrl }}
+        # repoUrl: ${{ parameters.repoUrl }}
         repoVisibility: public
