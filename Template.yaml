@@ -11,7 +11,8 @@ spec:
   parameters:
     - title: You are about to say hello to your first Backstage Template
       required:
-        - name, repoUrl
+        - name
+        - repoUrl
       properties:
         name:
           type: string
