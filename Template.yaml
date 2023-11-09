@@ -18,22 +18,8 @@ spec:
           type: string
 
   steps:
-  #  - id: log-message
-  #    name: Log Message
-  #    action: debug:log
-  #    input:
-  #      message: 'Hello, ${{ parameters.name }}!'
-    - id: create-project
-      name: Create Spring Boot gRPC project
-      action: exec
+    - id: log-message
+      name: Log Message
+      action: debug:log
       input:
-        command: curl https://start.spring.io/starter.zip -o app.zip
-
-    #- id: publish
-     # name: Publish
-      #action: publish:github
-      #input:
-       # allowedHosts: ['github.com']
-       # description: This is ${{ parameters.name }}
-       # repoUrl: 'github.com/RafaelSalazarLopez/CatalogoBackstage'
-       # repoVisibility: public
+        message: 'Hello, ${{ parameters.name }}!'
