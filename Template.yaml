@@ -22,6 +22,11 @@ spec:
       action: debug:log
       input:
         message: 'Hello, ${{ parameters.name }}!'
+    - id: create-project
+      name: Create Spring Boot gRPC project
+      action: exec
+      input:
+        command: curl https://start.spring.io/starter.zip -o app.zip
 
     #- id: publish
      # name: Publish
