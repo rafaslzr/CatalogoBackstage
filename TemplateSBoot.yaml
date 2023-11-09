@@ -1,1 +1,44 @@
-
+#apiVersion: scaffolder.backstage.io/v1beta3
+apiVersion: backstage.io/v1alfa1
+kind: Template
+metadata:
+  name: hello-world-template
+  title: Hello World
+  description: Says Hello to a specified name.
+spec:
+  owner: rafael.salazar.lopez@accenture.com
+  schema:
+    properties:
+      groupId:
+        type: string
+        title: Group ID
+        default: com.example
+      artifactId:
+        type: string
+        title: Artifact ID
+      version:
+        type: string
+        title: Version
+        default: 0.0.1-SNAPSHOT
+      javaPackage:
+        type: string
+        title: Java Package
+        default: com.example.grpc
+      description:
+        type: string
+        title: Description
+        default: A Spring Boot gRPC microservice
+ 
+  operations:
+    - id: generate
+      description: Generate a Spring Boot gRPC microservice
+      steps:
+        - id: create-project
+          name: Create Spring Boot gRPC project
+          action: exec
+          input:
+            command: curl https://start.spring.io/starter.zip
+          conditions: []
+ 
+  template:
+    type: static
