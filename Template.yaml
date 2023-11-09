@@ -23,11 +23,11 @@ spec:
       input:
         message: 'Hello, ${{ parameters.name }}!'
 
-    - id: publish
-      name: Publish
-      action: publish:github
-      input:
-        allowedHosts: ['github.com']
-        description: This is ${{ parameters.name }}
-        repoUrl: 'github.com/RafaelSalazarLopez/CatalogoBackstage'
-        repoVisibility: public
+    #- id: publish
+     # name: Publish
+      #action: publish:github
+      #input:
+       # allowedHosts: ['github.com']
+       # description: This is ${{ parameters.name }}
+       # repoUrl: 'github.com/RafaelSalazarLopez/CatalogoBackstage'
+       # repoVisibility: public
