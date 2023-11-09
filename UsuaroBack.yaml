@@ -7,7 +7,9 @@ metadata:
 spec:
   displayName: John Doe
   email: rafael.salazar.lopez@accenture.com
- 
+
+---
+
 # Group
 #apiVersion: backstage.io/v1
 kind: Group
