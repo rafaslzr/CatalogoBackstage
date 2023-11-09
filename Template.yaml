@@ -29,5 +29,5 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: This is ${{ parameters.name }}
-        repoUrl: 'github.com/RafaelSalazarLopez/CatalogoBackstage/'
+        repoUrl: 'github.com/RafaelSalazarLopez/CatalogoBackstage'
         repoVisibility: public
