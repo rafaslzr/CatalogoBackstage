@@ -9,7 +9,7 @@ metadata:
     - java
     - grpc
 spec:
-  owner: rafael.salazar.lopez@accenture.com
+  owner: rafa
   type: service
 
   parameters:
