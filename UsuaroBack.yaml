@@ -1,11 +1,24 @@
+# User
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: rafael
-  type: string
+  namespace: rafa
+  name: rafa
 spec:
-  profile:
-    displayName: rafa
-    email: rafa@example.com
+  displayName: rafa
+  email: rafa@acc.com
   memberOf:
-    - groupName: myGroup
+    - acc
+---
+# Group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: acc
+  name: acc
+spec:
+  type: team
+  description: Grupo de desarrolladores
+  email: acc@acc.com
+  children:
+    - rafa
