@@ -1,4 +1,5 @@
-apiVersion: scaffolder.backstage.io/v1beta3
+#apiVersion: scaffolder.backstage.io/v1beta3
+apiVersion: backstage.io/v1alfa1
 kind: Template
 metadata:
   name: hello-world-template
@@ -17,11 +18,11 @@ spec:
           type: string
 
   steps:
-    - id: log-message
-      name: Log Message
-      action: debug:log
-      input:
-        message: 'Hello, ${{ parameters.name }}!'
+  #  - id: log-message
+  #    name: Log Message
+  #    action: debug:log
+  #    input:
+  #      message: 'Hello, ${{ parameters.name }}!'
     - id: create-project
       name: Create Spring Boot gRPC project
       action: exec
