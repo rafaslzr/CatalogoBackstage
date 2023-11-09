@@ -6,7 +6,7 @@ metadata:
   title: Hello World
   description: Says Hello to a specified name.
 spec:
-  owner: rafael.salazar.lopez@accenture.com
+  owner: rafa
   type: service
 
   parameters:
