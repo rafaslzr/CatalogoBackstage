@@ -45,4 +45,4 @@ spec:
 ---
 metadata:
   annotations:
-    backstage.io/techdocs-ref: dir: .
+    backstage.io/techdocs-ref: dir:.
