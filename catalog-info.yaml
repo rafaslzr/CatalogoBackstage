@@ -42,7 +42,3 @@ spec:
   lifecycle: integration
   owner: rafael.salazar.lopez@accenture.com
 
----
-metadata:
-  annotations:
-    backstage.io/techdocs-ref: dir:.
